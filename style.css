@@ -1,47 +1,86 @@
 body /*cor de fundo cinza, posicao total no topo e margens definidas, fonte arial */{
-    background-color: dimgray;
+    height: 100%;
+    width: 98%;
+    background-color: ;
     background-position: top;
-    margin: 15px 10px 80px 10px;
-    border: 3px;
-    padding: inherit;
+    margin: 1%;
+    border: 1px solid #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    border: 1px dashed #000; /*provisorio*/
-    border-radius: 1%;/*provisório*/
 }
-.titulo /*no canto superior direito */{
-    text-align: right;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 7%;
-}
+
 .subtitulo /*lado esquerdo, curriculo profissional */{
 
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 2%;
     margin-left: 5%;
+    margin-top: 1%; 
 
 }
 .nome /* dentro do header, nome completo, fonte diferenciada e em negrito */{
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 70px;
     font-weight: bold;
 }
 header {
-    text-align: center;
-    box-sizing: border-box;
-    padding: 2px;
+    padding: 0px;
     line-height: 8px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
 }
 h3 /* topicos enumerados */{
     text-transform: uppercase;
     margin-left: 5%;
+    font-size: 24px;
 }
 
 article /* topicos e o conteudo */{
 
     margin: 20px 40px 40px 10px;
-    box-sizing: border-box;
+    text-align: justify;
+
+}
+.c0 {
+
+    line-height: 27px;
+    margin-left: 6%;
+}
+.rdp {
+
+    text-align: right;
+    margin-top 10%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+
 }
 
+@media (max-width: 1024px) {
+    body {
+
+        font-size: 14px;
+        line-height: 6px;
+
+    }
+    header {
+
+        line-height: 6px;
+        margin-bottom: 40px;
+        text-align: center,justify;
+
+    }
+    .nome {
+        font-size: 25px;
+        margin-bottom: 40px;
+
+    }
+    .subtitulo {
+
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
