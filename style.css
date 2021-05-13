@@ -1,0 +1,47 @@
+body /*cor de fundo cinza, posicao total no topo e margens definidas, fonte arial */{
+    background-color: dimgray;
+    background-position: top;
+    margin: 15px 10px 80px 10px;
+    border: 3px;
+    padding: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 1px dashed #000; /*provisorio*/
+    border-radius: 1%;/*provisório*/
+}
+.titulo /*no canto superior direito */{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 7%;
+}
+.subtitulo /*lado esquerdo, curriculo profissional */{
+
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    margin-left: 5%;
+
+}
+.nome /* dentro do header, nome completo, fonte diferenciada e em negrito */{
+    font-size: 45px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2px;
+    line-height: 8px;
+}
+h3 /* topicos enumerados */{
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+article /* topicos e o conteudo */{
+
+    margin: 20px 40px 40px 10px;
+    box-sizing: border-box;
+}
+
